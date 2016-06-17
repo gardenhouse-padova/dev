@@ -10,15 +10,19 @@
   width: 1.5em;
 }
 
-[class*="zocial-width"]:before {
+[class*="zocial-widest"]:before {
   width: 2.2em;
+}
+
+[class*="zocial-wider"]:before {
+  width: 1.7em;
 }
 
 a {
   color: #212121;
   text-decoration: none;
   cursor: pointer;
-  padding: 1.4em 0.2em 1.4em 0;
+  padding: 1.4em 1em 1.4em 0;
 }
 
 a:hover {
@@ -110,6 +114,12 @@ footer {
   margin-top: 2em;
 }
 
+@media screen and (max-width: 820px) {
+  section {
+    padding: 0 10px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   a {
     width: 100%;
@@ -127,9 +137,7 @@ footer {
     width: 100%;
   }
 
-  section {
-    padding: 0 10px;
-  }
+
 
   .images {
     flex-wrap: wrap;
