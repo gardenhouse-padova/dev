@@ -1,0 +1,98 @@
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 1.5em;
+}
+
+[class*="zocial-width"]:before {
+  width: 2.2em;
+}
+
+a {
+  color: #212121;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1.4em 0;
+}
+
+a:hover {
+  color: #424242;
+  text-decoration: underline;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  margin: 3vh 0 3vh 0;
+  text-align: center;
+}
+
+h1 {
+  color: #444;
+  font-family: 'Roboto condensed', sans-serif;
+  font-size: 6vw;
+  font-weight: 500;
+  margin: 0 0 0.5em 0;
+}
+
+h2 {
+  border-bottom: 1px solid #ddd;
+  color: #bb021e;
+  font-family: 'Roboto condensed', sans-serif;
+  font-size: 4vw;
+  margin: 0 0 1em 0;
+  padding: 0 0 1em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  margin-bottom: 2em;
+}
+
+picture#banner img {
+  -webkit-filter: saturate(3) opacity(0.7);
+  margin: 0 0 2em 0;
+  width: 60vw;
+}
+
+article {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 50em;
+  border-bottom: 1px solid #ddd;
+}
+
+p {
+  color: #444;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.6em;
+  margin: 0 auto 1em auto;
+  text-align: justify;
+}
+
+p.borderBelow {
+  border-bottom: 1px solid #eee;
+  padding: 0 0 1em 0;
+}
+
+.img-2 {
+  display: flex;
+}
+
+.panoram {
+  width: 25%;
+  padding-right: 10px;
+}
+
+footer {
+  margin-top: 2em;
+}
